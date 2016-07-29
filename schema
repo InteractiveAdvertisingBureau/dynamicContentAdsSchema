@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ad": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "advertiser": {
+          "type": "string"
+        },
+        "adUnits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ]
+          }
+        },
+        "displayGroups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ]
+          }
+        },
+        "creativeComponents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "assetType": {
+      					"enum": ["html","javascript","css","image","animatedImage","media","svgImage","webGl","dataFeed","assetFeed","Text","Fonts","Uri","custom"]
+              },
+              "componentType": {
+                "type": "string"
+              },
+              "adUnit": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "assets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "fallback": {
+                      "type": "string"
+                    },
+                    "target": {
+                      "type": "string"
+                    },
+                    "displayGroupIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "attributes": {
+                      "type": "object"
+                    }
+                  },                   
+                  "required": [
+                    "id",
+                    "name",
+                    "source",
+                    "sourceType",
+                    "fallback"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "assetType",
+              "componentType",
+              "adUnit",
+              "assets"
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "advertiser",
+        "adUnits",
+        "creativeComponents"
+      ]
+    }
+  },
+  "required": [
+    "ad"
+  ]
+}
