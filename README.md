@@ -1,0 +1,3 @@
+# dynamicAdContentSchema
+
+Test
