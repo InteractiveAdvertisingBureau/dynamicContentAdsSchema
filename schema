@@ -35,7 +35,7 @@
             ]
           }
         },
-        "displayGroups": {
+        "assetGroups": {
           "type": "array",
           "items": {
             "type": "object",
@@ -99,7 +99,7 @@
                     "target": {
                       "type": "string"
                     },
-                    "displayGroupIds": {
+                    "assetGroupIds": {
                       "type": "array",
                       "items": {
                         "type": "string"
