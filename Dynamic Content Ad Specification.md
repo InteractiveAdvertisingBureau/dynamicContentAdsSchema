@@ -28,10 +28,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ## Schema ##
 ### Executive Summary ###
 Programmatic has made dynamic media a reality, with individual ad placements chosen based on an avalanche of data. While to date, data has been mostly used to inform the media components of the ad, ad tech’s embrace of the creative half of the ad equation is exploding, reflecting marketer’s desire to bring the best technology forward to optimize the right message part of the holy trinity of right message, right person, right place & time with “dynamic” creative.
+
 The need is coming from agencies and brands under two major requirements:
-Desire to optimize content advertising on social media and other content distribution platforms. In this environment, it quickly becomes overwhelming for an agency to create the myriad versions of the same content necessary to cover multiple platforms.  Often, this is as simple as a headline, key visual, disclosure, brand ID, and a call to action—yet varying specs can make versioning onerous to say the least.
-The other need has been that marketers are recognizing the need for “in-the moment” messaging where getting the right message at the right time to the user could significantly influence purchase decisions.
-Media targeting has gotten much, much better, but creative has barely evolved. A leap forward was made with version one of dynamic creative optimization, but last generation DCO was limited by the need to create multiple finished ads (that were dynamically served based on decision engines, not dynamically created.)  Recently, however, the groundwork has been laid for a massive leap forward in truly dynamic advertising as marketers’ ability to create more distinct commercial options and creative assets catches up with ad tech’s ability to target, render, and serve them.
+
+* Desire to optimize content advertising on social media and other content distribution platforms. In this environment, it quickly becomes overwhelming for an agency to create the myriad versions of the same content necessary to cover multiple platforms.  Often, this is as simple as a headline, key visual, disclosure, brand ID, and a call to action—yet varying specs can make versioning onerous to say the least.
+* The other need has been that marketers are recognizing the need for “in-the moment” messaging where getting the right message at the right time to the user could significantly influence purchase decisions.
+
+Media targeting has gotten much, much better, but creative has barely evolved. A leap forward was made with version one of dynamic creative optimization, but last generation DCO was limited by the need to create multiple finished ads (that were dynamically served based on decision engines, not dynamically created).
+
+Recently, however, the groundwork has been laid for a massive leap forward in truly dynamic advertising as marketers’ ability to create more distinct commercial options and creative assets catches up with ad tech’s ability to target, render, and serve them.
+
 Dynamic Content Ad Standard aims to address this opportunity driving the demand for Dynamic Ad Component standards.
 Of perhaps equal importance to the ad ops and ad tech communities, robust standards will create a foundation for development and implementation that will lead to faster, easier adoption and the freeing up of resources for innovation.
 
