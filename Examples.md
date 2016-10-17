@@ -10,7 +10,5 @@ Link to the JSON schema that describes the dynamic content used to generate the 
 http://jsoneditoronline.org/?id=e25a5d7c5db2824b5462ca3b3d3854ad
 
 ## Jivox ##
-Link to view the ad campaign with demographic and weather based dynamic ad. Chose different opitons for demogrpahic and weaher to see which ad will be served to 
+Link to view the ad campaign with demographic and weather based dynamic ad. To view the ad, select an opiton from the dropdown menu. To view JSON, click on "Generate JSON" corresponding to this variation highlighted. Then, select a different variation and see the corresponding JSON objects highlighted. 
 https://as64.jivox.com/iabdemo/iabAdStnd/
-
-Link to the JSON schema that describes the dynamic content used to generate the above ad campaign is avialble on the demo page.
