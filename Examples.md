@@ -1,14 +1,10 @@
 # Example Implementations #
 
-Below are some example implementations that illustrate how to use the schema to deliver dynamic content ads:
+To test the validity of the specification, Spongecell and Jivox developed and implemented dynamic content ads using the new dynamic content ad standard.
+You can view those two examples at https://www.iab.com/dynamiccontentads 
 
-## Spongecell ##
-Link to view the ad campaign with region and language based dynamic ad. Choose different countries from the dropdown at left to see which ad will be served in each country. Ad viewers will be served localized video voiceovers, messaging and currency
-https://app.spongecell.com/app/demo/creatives/361604?workingDraft=false&dimensions=640x360&signalValueIds=401727
+## Demo provided by Jivox ##
+Example of dynamic content ad variations by demographic and weather data signal. Depending on the gender of the viewer and on the type of weather, different ad variations are generated. You can also preview the corresponding JSON schema for each ad variation.
 
-Link to the JSON schema that describes the dynamic content used to generate the above ad campaign:
-http://jsoneditoronline.org/?id=e25a5d7c5db2824b5462ca3b3d3854ad
-
-## Jivox ##
-Link to view the ad campaign with demographic and weather based dynamic ad. To view the ad, select an opiton from the dropdown menu. To view JSON, click on "Generate JSON" corresponding to this variation highlighted. Then, select a different variation and see the corresponding JSON objects highlighted. 
-https://as64.jivox.com/iabdemo/iabAdStnd/
+## Demo provided by Spongecell ##
+Example of dynamic content ad variations by geography and language data signal. Ad viewers are served localized video voice overs, messaging, and currency based on the country selected. You can also view the JSON schema that describes the dynamic content used to generate the demo ad campaign.
