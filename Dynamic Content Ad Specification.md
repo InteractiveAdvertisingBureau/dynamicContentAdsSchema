@@ -111,7 +111,8 @@ Below is the specification detail for Version 1.0.
 |                              |                      |      | URI                                                                                                                                                                                                |
 |                              |                      |      | custom                                                                                                                                                                                             |
 |                              |                      |      | For custom define custom with key value pair the name of asset type.                                                                                              |
-|                              | componentDescription        | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:  |
+|                              | componentDescription | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:  
+      |
 |                              |                      |      | title: a title for the ad
       |
 |                              |                      |      | sponsored: "Sponsored By" message where response should contain the brand name of the sponsor.
