@@ -111,8 +111,7 @@ Below is the specification detail for Version 1.0.
 |                              |                      |      | URI                                                                                                                                                                                                |
 |                              |                      |      | custom                                                                                                                                                                                             |
 |                              |                      |      | For custom define custom with key value pair the name of asset type.                                                                                              |
-|                              | componentDescription        | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:
-       |
+|                              | componentDescription        | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:  |
 |                              |                      |      | title: a title for the ad
       |
 |                              |                      |      | sponsored: "Sponsored By" message where response should contain the brand name of the sponsor.
@@ -137,7 +136,7 @@ Below is the specification detail for Version 1.0.
       |
 |                              |                      |      | displayurl: Display URL for the ad. To be used when sponsoring entity doesn’t own the content. IE sponsored by BRAND on SITE (where SITE is transmitted in this field).
       |
-|                              |                      |      | ctatext: CTA description - descriptive text describing a ‘call to action’ button for the destination URL.
+|                              |                      |      | ctatext: CTA description - descriptive text describing a ‘call to action' button for the destination URL.
       |
 |                              |                      |      | custom: Additional ad components required or offered by the publisher.
       |
@@ -163,7 +162,6 @@ Below is the specification detail for Version 1.0.
       |
 |                              |                      |      | backgroundURL: If the background image or content  is provided via URL
       |
-|                              |                      |      |                                                                                                            |
 |                              | adUnit               | Y    | Array of ad units that this component can be used in                                                                                                                                               |
 |                              |                      |      | <id1, id2, id3>                                                                                                                                                                                    |
 |                              |                      |      | Must validate with the list of ad units                                                                                                                                                            |
