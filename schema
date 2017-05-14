@@ -14,14 +14,20 @@
         "advertiser": {
           "type": "string"
         },
-        "adUnits": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "id": {
+        "version": {
+          "type": "string",
+          
+              "versionNumber": {
                 "type": "string"
               },
+            "required": [
+              "versionNumber"
+            ]
+          }
+        },
+        "adUnits": {
+          "type": "array",
+          
               "name": {
                 "type": "string"
               },
