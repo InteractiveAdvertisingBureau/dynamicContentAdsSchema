@@ -112,31 +112,32 @@ Below is the specification detail for Version 1.0.
 |                              |                      |      | custom                                                                                                                                                                                             |
 |                              |                      |      | For custom define custom with key value pair the name of asset type.                                                                                              |
 |                              | componentDescription        | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:
-title: a title for the ad
-sponsored: "Sponsored By" message where response should contain the brand name of the sponsor.
-desc: Descriptive text associated with the product or service being advertised. Longer length of text in response may be truncated or eclipsed by the exchange.
-ratings: Rating of the product being offered to the user. For example an app’s rating in an app store from 0-5.
-likes: Number of social ratings or “likes” of the product being offered to the user.
-downloads: Number downloads/installs of this product
-price: Price for product/app/in-app purchase. Value should include currency symbol in localized format.
-saleprice: Sale price that can be used together with price to indicate a discounted price compared to a regular price. Value should include currency symbol in localized format.
-phone: Phone number
-address: Address
-desc2: Additional descriptive text associated with the product or service being advertised
-displayurl: Display URL for the ad. To be used when sponsoring entity doesn’t own the content. IE sponsored by BRAND on SITE (where SITE is transmitted in this field).
-ctatext: CTA description - descriptive text describing a ‘call to action’ button for the destination URL.
-custom: Additional ad components required or offered by the publisher.
-productTitle: Name of product being advertised
-productDescription: Description of product being advertised
-offerText: Text for the special offer being advertised
-productImage:Image of the product being advertised
-backgroundImage: Image that covers the full background of the advertisement
-logo: Advertiser logo image
-logoURL: Image source If the logo image is being provided through advertiser url
-offerTextURL: Creative asset most likely image source If the offer text is provided through URL- this can help if offer needs to change dynamically
-offerImageURL: An offer may be provided as an image via proving a url for the image source
-ctaURL: If the Call to action is dynamic and is being provided via URL
-backgroundURL: If the background image or content  is provided via URL
+     |
+|                              |                      |      |title: a title for the ad
+|                              |                      |      |sponsored: "Sponsored By" message where response should contain the brand name of the sponsor.
+|                              |                      |      |desc: Descriptive text associated with the product or service being advertised. Longer length of text in response may be truncated or eclipsed by the exchange.
+|                              |                      |      |ratings: Rating of the product being offered to the user. For example an app’s rating in an app store from 0-5.
+|                              |                      |      |likes: Number of social ratings or “likes” of the product being offered to the user.
+|                              |                      |      |downloads: Number downloads/installs of this product
+|                              |                      |      |price: Price for product/app/in-app purchase. Value should include currency symbol in localized format.
+|                              |                      |      |saleprice: Sale price that can be used together with price to indicate a discounted price compared to a regular price. Value should include currency symbol in localized format.
+|                              |                      |      |phone: Phone number
+|                              |                      |      |address: Address
+|                              |                      |      |desc2: Additional descriptive text associated with the product or service being advertised
+|                              |                      |      |displayurl: Display URL for the ad. To be used when sponsoring entity doesn’t own the content. IE sponsored by BRAND on SITE (where SITE is transmitted in this field).
+|                              |                      |      |ctatext: CTA description - descriptive text describing a ‘call to action’ button for the destination URL.
+|                              |                      |      |custom: Additional ad components required or offered by the publisher.
+|                              |                      |      |productTitle: Name of product being advertised
+|                              |                      |      |productDescription: Description of product being advertised
+|                              |                      |      |offerText: Text for the special offer being advertised
+|                              |                      |      |productImage:Image of the product being advertised
+|                              |                      |      |backgroundImage: Image that covers the full background of the advertisement
+|                              |                      |      |logo: Advertiser logo image
+|                              |                      |      |logoURL: Image source If the logo image is being provided through advertiser url
+|                              |                      |      |offerTextURL: Creative asset most likely image source If the offer text is provided through URL- this can help if offer needs to change dynamically
+|                              |                      |      |offerImageURL: An offer may be provided as an image via proving a url for the image source
+|                              |                      |      |ctaURL: If the Call to action is dynamic and is being provided via URL
+|                              |                      |      |backgroundURL: If the background image or content  is provided via URL
                                                                                                             |
 |                              | adUnit               | Y    | Array of ad units that this component can be used in                                                                                                                                               |
 |                              |                      |      | <id1, id2, id3>                                                                                                                                                                                    |
