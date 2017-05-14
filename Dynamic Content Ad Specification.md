@@ -111,12 +111,9 @@ Below is the specification detail for Version 1.0.
 |                              |                      |      | URI                                                                                                                                                                                                |
 |                              |                      |      | custom                                                                                                                                                                                             |
 |                              |                      |      | For custom define custom with key value pair the name of asset type.                                                                                              |
-|                              | componentDescription | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:  
-      |
-|                              |                      |      | title: a title for the ad
-      |
-|                              |                      |      | sponsored: "Sponsored By" message where response should contain the brand name of the sponsor.
-      |
+|                              | componentDescription | N    | Defines what type is the component e.g. logo, background image, display url, price etc. There is no industry standard nomenclature at this time but some suggested descriptions to use are:        |
+|                              |                      |      | title: a title for the a                                            |
+|                              |                      |      | sponsored: "Sponsored By" message where response should contain the brand name of the sponsor                                                                                                      |
 |                              |                      |      | desc: Descriptive text associated with the product or service being advertised. Longer length of text in response may be truncated or eclipsed by the exchange.
       |
 |                              |                      |      | ratings: Rating of the product being offered to the user. For example an app’s rating in an app store from 0-5.
