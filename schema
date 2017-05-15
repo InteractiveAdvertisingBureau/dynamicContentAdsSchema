@@ -73,7 +73,7 @@
               "assetType": {
       					"enum": ["html","javascript","css","image","animatedImage","media","svgImage","webGl","dataFeed","assetFeed","Text","Fonts","Uri","custom"]
               },
-              "componentType": {
+              "componentDescription": {
                 "type": "string"
               },
               "adUnit": {
@@ -129,7 +129,6 @@
               "id",
               "name",
               "assetType",
-              "componentType",
               "adUnit",
               "assets"
             ]
