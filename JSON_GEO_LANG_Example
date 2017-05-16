@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+    "ad": {
+        "id": "33838",
+        "name": "demo",
+        "advertiser": "13340",
+        "version": [{
+        "versionNumber":1.0
+        }],
+        "adUnits": [{
+            "id": "33838",
+            "name": "medium rectangle",
+            "size": "300x250"
+          }],
+        "assetGroups": {
+          "id": "33838",
+          "items": [{
+            "id": "438220",
+            "name": "France"
+            },
+            {
+            "id": "438221",
+            "name": "United Kingdom"
+            },
+            {
+            "id": "438222",
+            "name": "South Korea"
+            }]
+          },
+        "creativeComponents": [{
+          "id": "56722",
+          "name": "BASEVIDEO",
+          "assetType": "media",
+          "componentType": "Base Video",
+          "adUnit": ["33838"],
+          "assets": [{
+            "id": "25856",
+            "name": "abb_french",
+            "source": "http://s3.amazonaws.com/assets.spongecell.com/campaigns/14056/signal_processors/5352/videos/25856/original/abb_french.mp4?1476380586",
+             "type": "media",
+            "sourceType":"URI",
+            "fallback": "0",
+            "target": "FR",
+            "assetGroupIds":["438220"],
+            "attributes": {
+              "weight": "31223",
+              "mime": "video/MP4",
+              "codec": "H.264",
+              "duration": "45",
+              "resolution": "SD",
+              "filename": "abb_french.mp4"
+              }
+            },
+            {
+            "id": "25857",
+            "name": "abb_english",
+            "source": "http://s3.amazonaws.com/assets.spongecell.com/campaigns/14056/signal_processors/5352/videos/25857/original/abb_english.mp4?1476380591",
+             "type": "media",
+            "sourceType":"URI",
+            "fallback": "1",
+            "target": "GB",
+            "assetGroupIds":["438221"],
+            "attributes": {
+              "weight": "30673",
+              "mime": "video/MP4",
+              "codec": "H.264",
+              "duration": "45",
+              "resolution": "SD",
+              "filename": "abb_english.mp4"
+              }
+            },
+            {
+            "id": "25858",
+            "name": "abb_korean",
+            "source": "http://s3.amazonaws.com/assets.spongecell.com/campaigns/14056/signal_processors/5352/videos/25858/original/abb_korean.mp4?1476380595",
+             "type": "media",
+            "sourceType":"URI",
+            "fallback": "0",
+            "target": "KR",
+            "assetGroupIds":["438222"],
+            "attributes": {
+              "weight": "29597",
+              "mime": "video/MP4",
+              "codec": "H.264",
+              "duration": "45",
+              "resolution": "SD",
+              "filename": "abb_korean.mp4"
+              }
+            }]                  
+          },
+          {
+          "id": "56723",
+          "name": "Headline",
+          "assetType": "text",
+          "componentType": "Headline",
+          "adUnit": ["33838"],
+          "assets": [{
+            "id" : "25878",
+            "name": "Profitez d'une île privée",
+            "source:": "Profitez d'une île privée",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "FR",
+            "assetGroupIds": ["438220"],
+            "attributes": [{
+              "language": "FR"
+              }]
+            },
+            {
+            "id" : "25881",
+            "name": "Enjoy a private island",
+            "source:": "Enjoy a private island",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "GB",
+            "assetGroupIds": ["438221"],
+            "attributes": [{
+              "language": "EN"
+              }]
+            },  
+            {
+            "id" : "25884",
+            "name": "개인 섬 을 즐길 수",
+            "source:": "개인 섬 을 즐길 수",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "KR",
+            "assetGroupIds": ["438222"],
+            "attributes": [{
+              "language": "KR"
+              }]
+            }
+          ]},
+          {
+          "id": "56724",
+          "name": "CTA",
+          "assetType": "text",
+          "componentType": "CTA",
+          "adUnit": ["33838"],
+          "assets": [{
+            "id" : "25879",
+            "name": "Réserver",
+            "source:": "Réserver",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "FR",
+            "assetGroupIds": ["438220"],
+            "attributes": [{
+              "language": "FR"
+              }]
+            },
+            {
+            "id" : "25882",
+            "name": "Book now",
+            "source:": "Book now",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "GB",
+            "assetGroupIds": ["438221"],
+            "attributes": [{
+            "language": "EN"
+              }]
+            },  
+            {
+            "id" : "25885",
+            "name": "지금 예약",
+            "source:": "지금 예약",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "KR",
+            "assetGroupIds": ["438222"],
+            "attributes": [{
+            "language": "KR"
+              }]
+            }]
+          },
+          {
+          "id": "56725",
+          "name": "Offer",
+          "assetType": "text",
+          "componentType": "Description",
+          "adUnit": ["33838"],
+          "assets": [{
+            "id" : "25880",
+            "name": "100 € de réduction sur les îles privées*",
+            "source:": "100 € de réduction sur les îles privées*",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "FR",
+            "assetGroupIds": ["438220"],
+            "attributes": [{
+              "language": "FR"
+              }]
+            },
+            {
+            "id" : "25883",
+            "name": "£100 Off All Private Islands*",
+            "source:": "£100 Off All Private Islands*",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "1",
+            "target": "GB",
+            "assetGroupIds": ["438221"],
+            "attributes": [{
+            "language": "EN"
+              }]
+            },
+            {
+            "id" : "25878",
+            "name": "모든 개인 섬에 할인 혜택을받을",
+            "source:": "모든 개인 섬에 할인 혜택을받을",
+            "type": "text",
+            "sourceType": "embedded",
+            "fallback": "0",
+            "target": "KR",
+            "assetGroupIds": ["438222"],
+            "attributes": [{
+              "language": "KR"
+              }]
+            }]  
+          },
+          {
+          "id": "56726",
+          "name": "Click Through",
+          "assetType": "URI",
+          "componentType": "Landing Page",
+          "adUnit": ["33838"],
+          "assets": [{
+            "id" : "25855",
+            "name": "AirBNB Home",
+            "source:": "https://www.airbnb.com",
+            "type": "URI",
+            "sourceType": "embedded",
+            "fallback": "1",
+            "target": "",
+            "assetGroupIds": ["438220","438221","438222"]
+            }]
+        }]
+    }    
+}
