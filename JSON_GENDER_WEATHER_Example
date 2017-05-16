@@ -1,0 +1,557 @@
+{
+    "ad": {
+        "id": "115629",
+        "name": "IAB Dynamic Ad Variant Demo",
+        "advertiser": "rei.com",
+        "version": [
+      {
+        "versionNumber":1.0
+        }
+     ],
+
+        "adUnits": [
+            {
+                "id": "2000",
+                "name": "medium rectangle",
+                "size": "300x250"
+            }
+        ],
+        "creativeComponents": [
+            {
+                "id": 3982,
+                "name": "Background 1",
+                "assetType": "image",
+                "componentDescription": "First Background",
+                "adUnit": [
+                    "2000"
+                ],
+                "assets": [
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_sunnyRun_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": true,
+                        "target": "DISPGR:Sunny-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/warmDefault_300x250bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_sunnyRun_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/warmDefault_300x250bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyRun_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyDefault_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyRun_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyDefault_bkd.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 6290,
+                "name": "Background 2",
+                "assetType": "image",
+                "componentDescription": "Second Background",
+                "adUnit": [
+                    "2000"
+                ],
+                "assets": [
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_sunnyRun_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": true,
+                        "target": "DISPGR:Sunny-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/warmDefault_300x250bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Run",
+                        "source": "'////playercdn.jivox.com/assets/300x250_sunnyRun_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/warmDefault_300x250bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyRun_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyDefault_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyRun_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/300x250_cloudyDefault_bkd2.jpg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4540,
+                "name": "Weather Icon",
+                "assetType": "image",
+                "componentDescription": "",
+                "adUnit": [
+                    "2000"
+                ],
+                "assets": [
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/sunnyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": true,
+                        "target": "DISPGR:Sunny-Male-Run",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/sunnyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Male-Default",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/sunnyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Run",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/sunnyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Default",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/cloudyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Run",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/cloudyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Default",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/cloudyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Run",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/cloudyIcon_60x60.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Default",
+                        "attributes": {
+                            "dimension": "[60,60]"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4527,
+                "name": "CTA",
+                "assetType": "image",
+                "componentDescription": "",
+                "adUnit": [
+                    "2000"
+                ],
+                "assets": [
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/warm_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": true,
+                        "target": "DISPGR:Sunny-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/warm_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/warm_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Default",
+                        "source": "'////playercdn.jivox.com/assets/warm_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/cloudy_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/cloudy_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/cloudy_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Run",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/cloudy_buyNow.png'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Default",
+                        "attributes": {
+                            "dimension": "[300,250]"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 6520,
+                "name": "Product Image",
+                "assetType": "image",
+                "componentDescription": "Image of the product",
+                "adUnit": [
+                    "2000"
+                ],
+                "assets": [
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/runSunnyMale_shoes_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": true,
+                        "target": "DISPGR:Sunny-Male-Run",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/defaultSunnyMale_cooler_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Male-Default",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/runSunnyFemale_shorts_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Run",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Sunny-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/defaultSunnyFemale_kayak_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Sunny-Female-Default",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Run",
+                        "source": "'//playercdn.jivox.com/assets/runCloudyMale_shoes_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Run",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Male-Default",
+                        "source": "'//playercdn.jivox.com/assets/defaultCloudyMale_bike_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Male-Default",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Run",
+                        "source": "'//playercdn.jivox.com/assets/runCloudyFemale_shoes_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Run",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    },
+                    {
+                        "id": "23543",
+                        "name": "Cloudy-Female-Default",
+                        "source": "'//playercdn.jivox.com/assets/defaultCloudyFemale_backpack_145x115.jpeg'",
+                        "sourceType": "URL",
+                        "fallback": "0",
+                        "activeForVariant": false,
+                        "target": "DISPGR:Cloudy-Female-Default",
+                        "attributes": {
+                            "dimension": "[145,115]"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
