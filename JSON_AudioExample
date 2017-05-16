@@ -1,0 +1,398 @@
+{
+  "ad": {
+    "id": "897945",
+    "name": "IAB Dynamic Ad Audio Demo",
+    "advertiser": "Amstel Light",
+    "version": [
+      {
+        "versionNumber":1.0
+        }
+     ],
+    "adUnits": [
+      {
+        "id": 554311,
+        "name": "preroll"
+      },
+      {
+        "id": 554312,
+        "name": "preroll pod1"
+      },
+      {
+        "id": 554313,
+        "name": "preroll pod2"
+      },
+      {
+        "id": 554314,
+        "name": "preroll pod3"
+      },
+      {
+        "id": 554315,
+        "name": "preroll pod4"
+      },
+      {
+        "id": 554316,
+        "name": "midroll"
+      },
+      {
+        "id": 554317,
+        "name": "midroll pod1"
+      },
+      {
+        "id": 554318,
+        "name": "midroll pod2"
+      },
+      {
+        "id": 554319,
+        "name": "midroll pod3"
+      },
+      {
+        "id": 554320,
+        "name": "midroll pod4"
+      }
+    ],
+    "assetGroups": [
+      {
+        "id": 245731,
+        "name": "genreContext_arenaRockMaleArtist"
+      },
+      {
+        "id": 345861,
+        "name": "genreContext_arenaRockFemaleArtist"
+      },
+      {
+        "id": 253987,
+        "name": "genreContext_hiphopWestCoast"
+      },
+      {
+        "id": 194732,
+        "name": "genreContext_edmHouse"
+      },
+      {
+        "id": 860235,
+        "name": "genreContext_popAnthemMaleArtist"
+      },
+      {
+        "id": 978652,
+        "name": "genreContext_popEmoFemaleArtist"
+      },
+      {
+        "id": 345732,
+        "name": "pubFormat_sportsTalk_mus"
+      },
+      {
+        "id": 547479,
+        "name": "pubFormat_sportsEvent_mus"
+      },
+      {
+        "id": 346728,
+        "name": "pubFormat_sportsTalk_amb"
+      },
+      {
+        "id": 684296,
+        "name": "pubFormat_sportsEvent_amb"
+      },
+      {
+        "id": 235873,
+        "name": "pubFormat_News"
+      },
+      {
+        "id": 345962,
+        "name": "pubFormat_NewsTalk"
+      }
+    ],
+    "creativeComponents": [
+      {
+        "id": 345723,
+        "name": "IAB DCAS dynamic music creative",
+        "assetType": "media",
+        "componentDescription": "music creative",
+        "adUnit": [
+          554311,
+          554312,
+          554313,
+          554314,
+          554315,
+          554316,
+          554317,
+          554318,
+          554319,
+          554320
+        ],
+        "assets": [
+          {
+            "id": 348573,
+            "name": "rock_4712",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/KSM047_12.mp3",
+            "sourceType": "URL",
+            "fallback": 0,
+            "assetGroupsIds": [
+              245731,
+              345861
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "rock",
+              "subGenre": "arena",
+              "nativeTempo": 107.5,
+              "nativeKeyGroup": "A major",
+              "startPickupOffset": 0,
+              "ATSC_A_85_LUFS": -14
+            }
+          },
+          {
+            "id": 744849,
+            "name": "hiphop_2605",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/IG026_05.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              253987
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "hiphop",
+              "subGenre": "west coast",
+              "nativeTempo": 72.5,
+              "nativeKeyGroup": "Bb dorian",
+              "startPickupOffset": 0,
+              "ATSC_A_85_LUFS": -16
+            }
+          },
+          {
+            "id": 744849,
+            "name": "pop_5219",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/IPM052_19.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              978652
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "pop",
+              "subGenre": "acoustic",
+              "featureInst": "guitar",
+              "nativeTempo": 80,
+              "nativeKeyGroup": "G major",
+              "startPickupOffset": -2,
+              "ATSC_A_85_LUFS": -23
+            }
+          },
+          {
+            "id": 744849,
+            "name": "pop_120657",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/SFL1206_57.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              860235
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "pop",
+              "subGenre": "electric",
+              "featureInst": "piano",
+              "nativeTempo": 90,
+              "nativeKeyGroup": "C major",
+              "startPickupOffset": -2,
+              "ATSC_A_85_LUFS": -18
+            }
+          },
+          {
+            "id": 744849,
+            "name": "edm_8111",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/PEDF081_11.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              194732
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "edm",
+              "subGenre": "house",
+              "nativeTempo": 125,
+              "nativeKeyGroup": "E dorian",
+              "startPickupOffset": 0,
+              "ATSC_A_85_LUFS": -15
+            }
+          },
+          {
+            "id": 744849,
+            "name": "news_1410",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/TV014_10.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              235873,
+              345962,
+              860235
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "news",
+              "subGenre": "corporate",
+              "nativeTempo": 121,
+              "nativeKeyGroup": "C mixolydian",
+              "startPickupOffset": 0,
+              "ATSC_A_85_LUFS": -20
+            }
+          },
+          {
+            "id": 744849,
+            "name": "sports_219421",
+            "source": "http://www.statefulmedia.com/DCAS/assets/musicCreative/AD2194_21.mp3",
+            "sourceType": "URL",
+            "codec": "MP3",
+            "fallback": 0,
+            "assetGroupsIds": [
+              345732,
+              547479
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "sports",
+              "subGenre": "heroic",
+              "nativeTempo": 140,
+              "nativeKeyGroup": "C major",
+              "startPickupOffset": -23,
+              "ATSC_A_85_LUFS": -24
+            }
+          }
+        ]
+      },
+      {
+        "id": 654289,
+        "name": "IAB DCAS dynamic ambience creative",
+        "assetType": "media",
+        "componentDescription": "ambience creative",
+        "adUnit": [
+          554311,
+          554312,
+          554313,
+          554314,
+          554315,
+          554316,
+          554317,
+          554318,
+          554319,
+          554320
+        ],
+        "assets": [
+          {
+            "id": 348573,
+            "name": "sports_4712",
+            "source": "http://www.statefulmedia.com/DCAS/assets/ambCreative/AMB_FJH235_02.mp3",
+            "sourceType": "URL",
+            "fallback": 0,
+            "assetGroupsIds": [
+              346728,
+              684296
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "genre": "stadium",
+              "subGenre": "baseball",
+              "ATSC_A_85_LUFS": -39
+            }
+          }
+        ]
+      },
+      {
+        "id": 252627,
+        "name": "IAB DCAS dynamic voiceover creative",
+        "assetType": "media",
+        "componentType": "voiceover creative",
+        "adUnit": [
+          554311,
+          554312,
+          554313,
+          554314,
+          554315,
+          554316,
+          554317,
+          554318,
+          554319,
+          554320
+        ],
+        "assets": [
+          {
+            "id": 9537,
+            "name": "amstel4",
+            "source": "http://www.statefulmedia.com/DCAS/assets/voiceoverCreative/Amstel_M9537.mp3",
+            "sourceType": "URL",
+            "fallback": 0,
+            "assetGroupsIds": [
+              245731,
+              253987,
+              860235,
+              345732,
+              574479,
+              346728,
+              684296
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "gender": "male",
+              "ageGroups": [
+                "millennial",
+                "gen x"
+              ],
+              "tone": [
+                "bro",
+                "energetic"
+              ],
+              "musicStartOffset": 0,
+              "allowAmbience": 1,
+              "ATSC_A_85_LUFS": -22
+            }
+          },
+          {
+            "id": 1532,
+            "name": "amstel7",
+            "source": "http://www.statefulmedia.com/DCAS/assets/voiceoverCreative/Amstel_F1532.mp3",
+            "sourceType": "URL",
+            "fallback": 0,
+            "assetGroupsIds": [
+              235873,
+              345962,
+              194732,
+              978652,
+              345861
+            ],
+            "attributes": {
+              "mime": "audio/mpeg",
+              "codec": "MP3",
+              "gender": "female",
+              "ageGroups": [
+                "millennial",
+                "gen x"
+              ],
+              "tone": [
+                "sardonic",
+                "comedy-dry"
+              ],
+              "musicStartOffset": 0,
+              "allowAmbience": 1,
+              "ATSC_A_85_LUFS": -24
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
